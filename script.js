@@ -81,7 +81,7 @@ const cats= [
         "species" : "Tiny Cat",
         "favFoods" : ["milk"],
         "birthYear" : 2021,
-        "photo" : "https://i.ytimg.com/vi/ZKBlMWI6nO4/maxresdefault.jpg"
+        "photo" : "https://i.ytimg.com/vi/ZKBlMWI6nO4/maxresdefault.jpg" /* 404 */
     },
     {
         "name" : "Tiger",
