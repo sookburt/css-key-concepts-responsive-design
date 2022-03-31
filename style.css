@@ -34,11 +34,11 @@ p {
 }
 
 .menu {
-    background-color: var(--coral); 
+    background-color: var(--camel); 
 }
 
 .menu__container {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
@@ -88,6 +88,7 @@ img {
 
 @media only screen and (max-width: 700px) {
 
+    
     .ipsum {
         display:none;
     }
@@ -109,7 +110,10 @@ img {
     }
     .nav__item--toggle-show {
         display: flex;
-        text-align: right;
+        margin-left: auto;
+    }
+    .card {
+        min-width: max-content;
     }
 }
 
