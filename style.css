@@ -33,6 +33,33 @@ p {
     font-size: 0.75rem;
 }
 
+.menu {
+    background-color: var(--coral); 
+}
+
+.menu__container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.menu__item {
+    padding: 10px 20px;
+    margin: 2px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    list-style-type: none;
+}
+
+a:link { 
+    color:  var(--light);
+}
+
+a:hover { 
+    color:  var(--dark);
+}
+
 .card-container {
     display: flex;
     flex-direction: row;
