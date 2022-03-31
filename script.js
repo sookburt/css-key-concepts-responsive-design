@@ -114,6 +114,13 @@ const cats= [
 
 ];
 
+const menuToggle = () => {
+    const nav__items = document.querySelectorAll('.menu__item');
+
+    nav__items.forEach(nav => nav.classList.toggle('nav__item--toggle-show'))
+}
+
+
 (function () {
     const petNames = document.getElementsByClassName("cat-name") 
     const petImage = document.getElementsByClassName("pet-pic") 
@@ -128,6 +135,8 @@ const cats= [
         birthYear[i].innerText = `Birth Year: ${cats[i].birthYear}`
         species[i].innerText = `Species: ${cats[i].species}`
     }
+
+    document.querySelector('.menu__icon').addEventListener('click', menuToggle);
 })();
 
 
