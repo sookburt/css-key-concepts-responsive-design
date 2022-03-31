@@ -81,7 +81,7 @@ const cats= [
         "species" : "Tiny Cat",
         "favFoods" : ["milk"],
         "birthYear" : 2021,
-        "photo" : "https://i.ytimg.com/vi/ZKBlMWI6nO4/maxresdefault.jpg" /* 404 */
+        "photo" : "https://placekitten.com/200/200" /* original url giving a 404 */
     },
     {
         "name" : "Tiger",
