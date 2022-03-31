@@ -52,6 +52,11 @@ p {
     list-style-type: none;
 }
 
+.menu__icon {
+    display:none;
+    font-size: 2.0rem;
+}
+
 a:link { 
     color:  var(--light);
 }
@@ -84,6 +89,19 @@ img {
     }
     h1, h2 {
         text-align: center;
+    }
+    .menu__container {
+        flex-direction: column;
+    }
+    .menu__item {
+        display: none;
+    }
+    .menu__icon {
+        display: initial;
+        align-self: flex-end;
+        border: 0;
+        padding: 7px 10px;
+        cursor: pointer;
     }
 }
 
