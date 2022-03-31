@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
 :root {
     --coral: #F05D5E;
     --teal: #0F7173;
@@ -8,6 +10,7 @@
 
 html {
     font-size: 100%;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 body {
@@ -51,6 +54,9 @@ img {
 
     .ipsum {
         display:none;
+    }
+    h1, h2 {
+        text-align: center;
     }
 }
 
